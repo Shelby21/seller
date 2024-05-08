@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Mon login</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css"> <!-- appel du fichier style.css se trouvant dans le repertoire css -->
+</head>
+
+<body>
+    <div class="formulaire">
+        <h1>Formulaire de connexion</h1>
+        <!-- creation du container -->
+        <div class="container">
+            <div class="formulaire-info">
+                <div class="info">
+                    <h2>Connexion</h2>
+                    <!-- debut creation des elements du formulaire -->
+                    <form action="produits.html" method="post">
+                        <!-- debut zone de saisie du nom de l'utilisateur -->
+                        <input type="text" name="utilisateur" placeholder="nom d'utilisateur" id="utilisateur" required>
+                        <!-- fin zone de saisie du nom de l'utilisateur -->
+
+                        <!-- debut zone de saisie du mot de passe -->
+                        <input type="password" name="password" placeholder="mot de passe utilisateur" id="password"
+                            required>
+                        <!-- fin zone de saisie du mot de passe -->
+
+                        <!-- debut combobox pour selectionner un role utilisateur -->
+                        <select name="role" id="roleSelect" class="role-select">
+                            <option value="" disabled selected>Choisissez un rôle</option>
+                            <option value="visiteur">Visiteur</option>
+                            <option value="client">Client</option>
+                            <option value="admin">Admin</option>
+                        </select>
+                        <!-- fin combobox pour selectionner un role utilisateur -->
+
+                        <button class="btn btn-primary btn-block" type="submit">Se connecter</button>
+                        <!-- debut checkboxe pour option se souvenir-->
+                        <input type="checkbox" name="souvenir" id="souvenir" value="souvenir" required>
+                        <label for="souvenir">Se souvenir de moi</label>
+                        <!-- debut checkboxe pour option se souvenir-->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

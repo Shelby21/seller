@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #585858;
+    background-color: #f1f1f1;
+    box-sizing: border-box;
+    font-family: 'Courier New';
+}
+
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    color: #3b3663;
+}
+
+.formulaire {
+    padding: 40px 40px;
+    justify-content: center;
+    display: grid;
+    grid-template-rows: 1fr auto 1fr;
+    align-items: center;
+    min-height: 100%;
+}
+
+
+
+.container {
+    max-width: 890px;
+    margin: 0 auto;
+}
+
+.formulaire-info {
+    margin: 40px 0;
+}
+
+.info {
+    padding: 40px;
+    width: 450px;
+    background: #fff;
+    box-shadow: 2px 9px 49px -17px black;
+}
+
+.info h2 {
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #3b3663;
+}
+
+
+
+select, input#utilisateur, input#password{
+    font-size: 17px;
+    font-weight: 500;
+    color: #999;
+    text-align: left;
+    padding: 14px 15px 12px 35px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    letter-spacing: .5px;
+    font-family: 'Courier New';
+}
+
+
+
+.btn-block {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.btn-primary {
+    color: #9d9999;
+    margin-top: 30px;
+    outline: none;
+    width: 50%;
+    float: right;
+    padding: 15px 15px;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 6px;
+    border: none;
+    text-transform: capitalize;
+}
+
+.btn-primary:hover {
+    background-color: blue;
+    color: white;
+}
+
+input#souvenir{
+    cursor: pointer;
+    color: gray;
+    font-size: 15px;
+    margin-top: 30%;
+    margin-left: 25px;
+}
+
